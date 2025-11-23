@@ -4,3 +4,8 @@ x>10
 x>=6
 x<23
 x<=12
+
+install.packages("tidyverse")
+
+library(tidyverse)
+browseVignettes("dplyr")
