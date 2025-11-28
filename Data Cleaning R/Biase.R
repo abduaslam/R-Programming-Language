@@ -1,0 +1,2 @@
+install.packages("SimDesign")
+ins
