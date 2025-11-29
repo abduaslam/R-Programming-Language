@@ -33,8 +33,10 @@ dim(df)
  #create new dataset contain new city
  df %>% filter(df, name == "City Hotel")
  View(af$name)
+ install.packsges("tidyverse")
  
- 
- 
+ install.packages("languageserver")
+
+
  
  

@@ -1,0 +1,5 @@
+setwd("/home/abdu/Downloads/datasets R/Course 7/Week 4")
+df=read.csv("hotel_bookings.csv")
+str(df)
+head(df)
+View(df)
