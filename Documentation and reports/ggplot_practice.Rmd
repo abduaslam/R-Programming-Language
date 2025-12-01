@@ -1,0 +1,16 @@
+---
+title: "ggplot_RmdFile"
+author: "Abduaslam"
+date: "`r Sys.Date()`"
+output: html_document
+---
+## Setting up my enviroment
+Note :setting up my enviroment by loading **'tidyvarse'** and **'palmberPenguins' dataset'**
+```{r}
+install.packages("tidyverse")
+install.packages("palmerpenguins")
+library(tidyverse)
+library(palmerpenguins)
+View(penguins)
+```
+

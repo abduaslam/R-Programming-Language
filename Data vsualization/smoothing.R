@@ -1,11 +1,4 @@
-library(ggplot2)
-
-ggplot(cars, aes(speed, dist)) +
-  geom_point() +
-  geom_smooth(method = "loess")     # smooth curve
-
-
-
-ggplot(mpg, aes(displ, hwy)) +
-  geom_point() +
-  geom_smooth(method = "gam", formula = y ~ s(x))
+data()
+View(gss_cat )
+df=gss_cat %>% drop_na()
+ggplot(df,aes(x=age,y=tvhours))+geom_line()

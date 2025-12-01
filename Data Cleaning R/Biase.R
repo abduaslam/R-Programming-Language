@@ -1,2 +1,5 @@
 install.packages("SimDesign")
-ins
+library(SimDesign)
+actual_sale=c(120,125,134,145,110)
+pre_sale=c(100,110,90,150,111)
+bias(actual_sale,pre_sale)
